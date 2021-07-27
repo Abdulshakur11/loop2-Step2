@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+}
+
+.big-wrapper {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  background-color: #FDEC51;
+}
+
+.block-accaunt-settings {}
+
+.container {
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.smal-container {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.nav-title {
+  font-weight: 500;
+}
+
+.back-icon::before {
+  display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url("../imges/icons-delete.svg");
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 85px;
+
+}
+
+.footer-item {
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+.item-link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #6E692D;
+}
+
+.block-form {
+  width: 500px;
+  transform: translate(10%, 14%);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: -20px 20px 25px rgb(16 16 17 / 20%);
+}
+
+.avatar {
+  border-radius: 100%;
+  transform: translate(0, -50%);
+}
+
+.user-name {
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: #B4B4B4;
+}
+
+.name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  outline: none;
+  margin-top: 10px;
+  border: none;
+}
+
+.input-line {
+  display: block;
+  width: 420px;
+  height: 0.5px;
+  background-color: #B4B4B4;
+  margin-top: 5px;
+}
+
+.first-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  outline: none;
+  margin-top: 10px;
+  border: none;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.email {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  outline: none;
+  margin-top: 10px;
+  border: none;
+}
+
+.email-lable {
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: #B4B4B4;
+  margin-top: 20px;
+}
+
+.bio-lable {
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: #B4B4B4;
+  margin-top: 20px;
+}
+
+.text-area {
+  resize: vertical;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.button {
+  font-weight: 500;
+  cursor: pointer;
+  color: #6E692D;
+  border: none;
+  text-decoration: none;
+  background-color: #FDEC51;
+}
+
+.button:hover{
+  color: #000;
+}
+
+.button:active{
+  color: red;
+}

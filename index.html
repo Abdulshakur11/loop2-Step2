@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop2-Step2</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="big-wrapper">
+    <!-- =========== -->
+    <form action="https://echo.htmlacademy.ru" autocomplete="off" method="POST">
+      <header class="block-accaunt-settings">
+        <div class="container">
+
+          <nav class="navbar">
+            <h2 class="nav-title">Accaunt-settings</h2>
+            <a href="#">
+              <span class="back-icon"></span>
+            </a>
+          </nav>
+
+        </div>
+      </header>
+
+
+      <main>
+        <div class="block-form">
+          <div class="smal-container">
+            <img class="avatar" src="./imges/avatar.jpg" alt="avatar" width="60" height="60">
+
+            <label for="username_id" class="user-name">username</label>
+            <input class="name" id="username_id" type="text" name="User_name" placeholder="Enter your user name"
+              required>
+            <span class="input-line"></span>
+
+            <div class="form-wrapper">
+
+              <div>
+                <label for="firstname_id" class="user-name">first name</label>
+                <input class="first-name" id="firstname_id" type="text" name="First_name"
+                  placeholder="Enter your first name" required>                
+              </div>
+
+              <div>
+                <label for="lastname_id" class="user-name">username</label>
+                <input class="first-name" id="lastname_id" type="text" name="Last_name"
+                  placeholder="Enter your last name" required>
+              </div>
+
+            </div>
+            <span class="input-line"></span>
+
+            <label for="email_id" class="email-lable">email</label>
+            <input class="email" id="email_id" type="email" name="User_name" placeholder="Enter your email" required>
+            <span class="input-line"></span>
+
+            <label for="bio_id" class="bio-lable">bio</label>
+            <textarea class="text-area" name="tell_us_about_your_self" id="bio_id" cols="46" required
+              style="max-width: 100%;"></textarea>
+
+          </div>
+        </div>
+      </main>
+
+      <!-- ============ -->
+      <footer>
+        <div class="container">
+
+          <ul class="footer-list">
+            <li class="footer-item">
+              <button class="button" type="button">Cancel</button>
+            </li>
+            <li class="footer-item">
+              <button class="button" type="submit">Save</button>
+            </li>
+          </ul>
+
+        </div>
+      </footer>
+    </form>
+  </div>
+</body>
+
+</html>
